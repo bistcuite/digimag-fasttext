@@ -1,7 +1,7 @@
 # digimag-fasttext
 Text classification with fasttext and digikala magazine dataset
 
-This model classificate texts in 7 categories :
+This model classifies texts in 7 categories :
 1. `Video Games`
 2. `Shopping Guide`
 3. `Health Beauty`
