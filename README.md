@@ -22,7 +22,7 @@ Now enter following command to train and save model(model will saved on `model.b
 $ python train.py
 ```
 
-For test the model :
+For testing model :
 ```
 $ python test.py
 ```
