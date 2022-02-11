@@ -51,7 +51,7 @@ input_txt = "متن شما"
 result = classifier.predict(input_txt)
 print("Predicted label :", categories[int(result[0][0].replace("__label__", ""))])
 ```
-See [example.py](src/example.py)
+See [example.py](src/example.py).
 
 ## License
 ***[MIT](LICENSE)***
