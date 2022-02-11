@@ -15,10 +15,14 @@ This model classificate texts in 7 categories :
 - `numpy`
 - `pandas`
 
-## Training model
+## Training and testing model
 At first you should download digimag dataset from [this link](https://bit.ly/3ca4bm8) and extract it in `src` folder.
 Now enter following command to train and save model(model will saved on `model.bin` file) :
 ```
-$ python -m train.py
+$ python train.py
 ```
 
+For test the model :
+```
+$ python test.py
+```
