@@ -15,6 +15,10 @@ This model classifies texts in 7 categories :
 - `numpy`
 - `pandas`
 
+```
+$ pip install -r requirements. txt
+```
+
 ## Training and testing model
 At first you should download digimag dataset from [this link](https://bit.ly/3ca4bm8) and extract it in `src` folder.
 
