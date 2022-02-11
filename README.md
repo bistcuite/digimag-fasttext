@@ -1,4 +1,4 @@
-# digimag-fasttext
+# DigiMag fasttext
 Text classification with fasttext and digikala magazine dataset
 
 This model classifies texts in 7 categories :
