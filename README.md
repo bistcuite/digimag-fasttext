@@ -10,6 +10,11 @@ This model classificate texts in 7 category :
 6. `Art Cinema`
 7. `Books Literature`
 
+## Requirements
+- `fasttext`
+- `numpy`
+- `pandas`
+
 ## Training model
 At first you should download digimag dataset from [this link](https://bit.ly/3ca4bm8) and extract it in `src` folder.
 Now enter following command to train and save model(model will saved on `model.bin` file) :
