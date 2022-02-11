@@ -22,9 +22,9 @@ $ pip install -r requirements.txt
 ## Training and testing model
 At first you should download digimag dataset from [this link](https://bit.ly/3ca4bm8) and extract it in `src` folder.
 
-Now enter following command to train and save model(model will saved in `model.bin` file) :
+Now enter following command to preprocess and train and save model(model will saved in `model.bin` file) :
 ```
-$ python train.py
+$ python preprocess.py && python train.py
 ```
 
 For testing model :
