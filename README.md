@@ -6,5 +6,6 @@ This model classificate texts in 7 category :
 2. `Shopping Guide`
 3. `Health Beauty`
 4. `Science Technology`
-5. `Art Cinema`
-6. `Books Literature`
+5. `General`
+6. `Art Cinema`
+7. `Books Literature`
