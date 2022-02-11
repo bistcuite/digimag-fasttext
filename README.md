@@ -16,7 +16,7 @@ This model classifies texts in 7 categories :
 - `pandas`
 
 ```
-$ pip install -r requirements. txt
+$ pip install -r requirements.txt
 ```
 
 ## Training and testing model
