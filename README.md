@@ -1,6 +1,6 @@
 # DigiMag fasttext
 
-Text classification with fasttext and digikala magazine dataset.
+Text classification with fasttext and [digikala magazine dataset](https://hooshvare.github.io/docs/datasets/tc#digikala-magazine-digimag).
 
 Model classifies texts in 7 categories :
 1. `Video Games`
