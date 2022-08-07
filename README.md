@@ -2,7 +2,7 @@
 
 Text classification with fasttext and digikala magazine dataset.
 
-This model classifies texts in 7 categories :
+Model classifies texts in 7 categories :
 1. `Video Games`
 2. `Shopping Guide`
 3. `Health Beauty`
@@ -21,14 +21,14 @@ $ pip install -r requirements.txt
 ```
 
 ## Training and testing model
-At first you should download digimag dataset from [this link](https://bit.ly/3ca4bm8) and extract it in `src` folder.
+At first you should download digimag dataset from [this link](https://bit.ly/3ca4bm8) and extract it into `src` directory.
 
-Now enter following command to preprocess dataset and train and save model(model will saved in `model.bin` file) :
+Now enter following command to preprocess dataset, train and save model(model will saved in `model.bin` file) :
 ```
 $ python preprocess.py && python train.py
 ```
 
-For testing model :
+Test model :
 ```
 $ python test.py
 ```
@@ -48,7 +48,7 @@ categories = {
 }
 
 classifier = fasttext.load_model('model.bin')
-input_txt = "متن شما"
+input_txt = "your text"
 result = classifier.predict(input_txt)
 print("Predicted label :", categories[int(result[0][0].replace("__label__", ""))])
 ```
